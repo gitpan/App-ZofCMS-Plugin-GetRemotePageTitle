@@ -1,5 +1,8 @@
 Revision history for App-ZofCMS-Plugin-GetRemotePageTitle
 
+0.0102  July 26, 2009
+        Fixed a bug that ignored the C<ua> argument
+
 0.0101  July 26, 2009
         First version, released on an unsuspecting world.
 

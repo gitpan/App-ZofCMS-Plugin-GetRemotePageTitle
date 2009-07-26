@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::GetRemotePageTitle;
 use warnings;
 use strict;
 
-our $VERSION = '0.0101';
+our $VERSION = '0.0102';
 use base 'App::ZofCMS::Plugin::Base';
 use WWW::GetPageTitle;
 
@@ -29,7 +29,7 @@ sub _do {
             and length $conf->{uri};
 
 
-    my $title = WWW::GetPageTitle->new;
+    my $title = WWW::GetPageTitle->new( ua => $conf->{ua} );
 
     if ( ref $conf->{uri} eq 'ARRAY' ) {
         my @results;

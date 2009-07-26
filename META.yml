@@ -1,6 +1,6 @@
 ---
 name: App-ZofCMS-Plugin-GetRemotePageTitle
-version: 0.0101
+version: 0.0102
 author:
   - "'Zoffix <'zoffix@cpan.org'>"
 abstract: plugin to obtain page titles from remote URIs
@@ -15,7 +15,7 @@ build_requires:
 provides:
   App::ZofCMS::Plugin::GetRemotePageTitle:
     file: lib/App/ZofCMS/Plugin/GetRemotePageTitle.pm
-    version: 0.0101
+    version: 0.0102
 generated_by: Module::Build version 0.280801
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
