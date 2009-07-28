@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::GetRemotePageTitle;
 use warnings;
 use strict;
 
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 use base 'App::ZofCMS::Plugin::Base';
 use WWW::GetPageTitle;
 
@@ -199,6 +199,7 @@ occured.
 =head1 AUTHOR
 
 'Zoffix, C<< <'zoffix at cpan.org'> >>
+(L<http://haslayout.net/>, L<http://zoffix.com/>, L<http://zofdesign.com/>)
 
 =head1 BUGS
 
