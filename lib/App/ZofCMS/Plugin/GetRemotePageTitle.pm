@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::GetRemotePageTitle;
 use warnings;
 use strict;
 
-our $VERSION = '0.0104';
+our $VERSION = '0.0105';
 use base 'App::ZofCMS::Plugin::Base';
 use WWW::GetPageTitle;
 
@@ -60,6 +60,8 @@ sub _do {
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 

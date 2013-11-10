@@ -15,8 +15,10 @@ my $builder = Module::Build->new(
     },
     requires => {
         'WWW::GetPageTitle'         => 0.0102,
-        'App::ZofCMS::Plugin::Base' => 0.0103
+        'App::ZofCMS::Plugin::Base' => 0.0103,
+        'perl' => '5.006',
     },
+    configure_requires => { 'Module::Build' => 0 },
     add_to_cleanup      => [ 'App-ZofCMS-Plugin-GetRemotePageTitle-*' ],
     create_makefile_pl => 'traditional',
 );

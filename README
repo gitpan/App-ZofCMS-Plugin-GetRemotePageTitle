@@ -1,7 +1,8 @@
 App-ZofCMS-Plugin-GetRemotePageTitle
 
-The module is a plugin for L<App::ZofCMS> that provides means to get page titles from
-remote URIs which can be utilized when automatically parsing URIs posted in coments, etc.
+The module is a plugin for L<App::ZofCMS> that provides means to
+get page titles from remote URIs which can be utilized when
+automatically parsing URIs posted in coments, etc.
 
 This documentation assumes you've read L<App::ZofCMS>, L<App::ZofCMS::Config> and
 L<App::ZofCMS::Template>
